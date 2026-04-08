@@ -112,7 +112,7 @@ while system_running:
         cv2.putText(img, f"{name} {dist if 'dist' in locals() else ''}", (x1, y1-10), 
                     cv2.FONT_HERSHEY_DUPLEX, 0.7, color, 2)
 
-    # THE IMPROVED SHUTDOWN LOGIC
+    # SHUTDOWN LOGIC
     if any_unknown_found and not any_authorized_found:
         # Start timer if not already started
         if unknown_start_time is None:
@@ -126,7 +126,7 @@ while system_running:
                     cv2.FONT_HERSHEY_DUPLEX, 0.8, (0, 0, 255), 2)
         
         if elapsed >= SHUTDOWN_LIMIT:
-            print("🛑 SECURITY SHUTDOWN: Unauthorized access detected.")
+            print("SECURITY SHUTDOWN: Unauthorized access detected.")
             speak("Security Alert. Unauthorized user. System locking.")
             system_running = False
     else:
