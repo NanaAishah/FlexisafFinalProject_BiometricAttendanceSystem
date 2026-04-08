@@ -28,7 +28,7 @@ Recognition is determined by calculating the **Euclidean Distance** between the 
 
 ## Project Previews
 ### Biometric Scanner and Management Dashboad
-![Scanner Preview](Screenshots/web and scanner preview.png)
+![Scanner Preview](Screenshots/web.png)
 
 ## Tech Stack
 - **Language:** Python 3.12
