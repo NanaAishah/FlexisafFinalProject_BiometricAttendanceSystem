@@ -1,4 +1,6 @@
-# Attendance System
+# Presentation Link
+https://github.com/NanaAishah/FlexisafFinalProject_BiometricAttendanceSystem/blob/main/biometric%20attendance%20system_compressed.pdf# Attendance System
+
 **Final Internship Project | Computer Vision & Deep Learning**
 
 ## Project Overview
